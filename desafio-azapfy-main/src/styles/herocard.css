@@ -1,0 +1,31 @@
+.selected {
+  transform: scale(1.05);
+  border: 3px solid #5f27cd;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.67);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.button-select {
+  cursor: pointer;
+  background-color: #5f27cd;
+  padding: 3px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}

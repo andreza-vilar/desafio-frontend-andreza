@@ -1,0 +1,17 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.history-link {
+  text-decoration: none;
+  float: right;
+  color: white;
+  padding: 10px;
+  background-color: #333;
+}

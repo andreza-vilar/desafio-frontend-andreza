@@ -1,0 +1,55 @@
+.container-history {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-history h1 {
+  text-transform: uppercase;
+}
+
+.back-menu {
+  right: 0;
+  position: absolute;
+  background-color: #333;
+  width: 200px;
+  height: 35px;
+  color: white;
+}
+
+.back-menu svg,
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.back-menu svg {
+  position: relative;
+  top: 2.5px;
+}
+
+.card-history {
+  width: 700px;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.67);
+}
+
+.card-history img {
+  border-radius: 20px;
+}
+
+.img-vs {
+  width: 100px;
+}
+
+.clear-history-btn {
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  top: 20px;
+  background-color: #333;
+  width: 200px;
+  height: 35px;
+  color: white;
+  border: none;
+}

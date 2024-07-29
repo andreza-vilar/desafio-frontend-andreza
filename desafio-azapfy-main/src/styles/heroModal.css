@@ -1,0 +1,30 @@
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.comparar-habilidades {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-heroes {
+  display: flex;
+  text-align: center;
+}
+
+.winner {
+  text-align: center;
+  color: green;
+  text-transform: uppercase;
+  box-shadow: black 2px 2px 2px 2px;
+  margin-bottom: 20px;
+}
+
+.icon-close {
+  cursor: pointer;
+  font-size: 30px;
+}
